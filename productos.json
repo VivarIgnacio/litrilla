@@ -1,0 +1,65 @@
+[
+    {
+        "id": "D-1619",
+        "nombre": "Lana Verde Petroleo",
+        "precio": 1000,
+        "color": "Verde Petroleo",
+        "imagen": "lana-verde.jpg"
+    },
+    {
+        "id": "D-1624",
+        "nombre": "Lana Gris",
+        "precio": 1000,
+        "color": "Gris",
+        "imagen": "lana-gris.jpg"
+    },
+    {
+        "id": "D-1632",
+        "nombre": "Lana Calipso",
+        "precio": 1000,
+        "color": "Calipso",
+        "imagen": "lana-calipso.jpg"
+    },
+    {
+        "id": "D-1629",
+        "nombre": "Lana Verde",
+        "precio": 1000,
+        "color": "Verde",
+        "imagen": "lana-verde-2.jpg"
+    },
+    {
+        "id": "D-1614",
+        "nombre": "Lana Blanca",
+        "precio": 1000,
+        "color": "Blanca",
+        "imagen": "lana-blanca.jpg"
+    },
+    {
+        "id": "D-1616",
+        "nombre": "Lana Rosada",
+        "precio": 1000,
+        "color": "Rosada",
+        "imagen": "lana-rosada.jpg"
+    },
+    {
+        "id": "D-1623",
+        "nombre": "Lana Roja",
+        "precio": 1000,
+        "color": "Roja",
+        "imagen": "lana-roja.jpg"
+    },
+    {
+        "id": "D-1637",
+        "nombre": "Lana Morada",
+        "precio": 1000,
+        "color": "Morada",
+        "imagen": "lana-morada.jpg"
+    },
+    {
+        "id": "D-1643",
+        "nombre": "Lana Naranja",
+        "precio": 1000,
+        "color": "Naranja",
+        "imagen": "lana-naranja.jpg"
+    }
+]
