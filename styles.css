@@ -1,3 +1,72 @@
+/* Ajuste general para evitar desbordamiento */
+* {
+    box-sizing: border-box;
+}
+
+/* MENÚ SUPERIOR MODERNO */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(145deg, #6a0dad, #b19cd9, #6a0dad);
+    color: white;
+    padding: 0.8em 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    animation: metallic 10s ease infinite;
+}
+
+.menu-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+.menu-items li {
+    display: inline;
+}
+
+.menu-items a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-items a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Ajuste para dispositivos móviles */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .menu-items a {
+        padding: 0.7em 1em;
+        font-size: 1em;
+    }
+}
+
+/* Código CSS original que debe mantenerse */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -83,3 +152,35 @@ button:hover {
     text-align: center;
 }
 
+.producto p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.stock {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.sin-stock {
+    color: red;
+    font-weight: bold;
+}
+
+.carrito-item button {
+    margin: 0 5px;
+    padding: 3px 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.carrito-item button:hover {
+    background-color: #0056b3;
+}
+
+.carrito-item span {
+    font-weight: bold;
+}

@@ -7,15 +7,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Menú superior moderno -->
+    <nav class="menu">
+        <div class="menu-logo">LITRILLA</div>
+        <ul class="menu-items">
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="quienes-somos.html">Quienes somos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="tiendas.html">Tiendas</a></li>
+        </ul>
+    </nav>
+
     <header>
-        <h1>Tienda LITRILLA</h1>
+        <h1>LITRILLA</h1>
     </header>
     <main>
         <p>Esta es una página web para que puedas comprar la mejor ropa de casa.</p>
         <button onclick="mostrarMensaje()">Haz clic aquí</button>
         <p id="mensaje"></p>
         <br>
-        <button id="whatsapp-button" onclick="hacerPedido()">Hacer pedido por WhatsApp</button>
+        <button id="whatsapp-button" onclick="hacerPedido()">
+            <img src="images/whatsapp-icon.jpg" alt="WhatsApp" class="whatsapp-icon">
+            Hacer pedido por WhatsApp
+        </button>
 
         <h2>Catálogo de Lanas</h2>
         <div id="catalogo" class="catalogo"></div>
